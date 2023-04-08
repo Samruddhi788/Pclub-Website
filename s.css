@@ -1,0 +1,26 @@
+#f h1{
+    font-size: 45px;
+    color:black;
+    background-color: wheat;
+    text-align: center;
+    text-decoration: double;
+     
+}
+#f img{
+    content:"";
+    position:absolute;
+   
+    background-repeat: no-repeat;
+    background-position: center;
+background-size: cover;
+    height:100%;
+
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+}
+#f p{
+    font-size: 30px;
+    color:wheat;
+    
+}

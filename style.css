@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding:0;
+}
+#navigationbar{
+    display:flex;
+    align-items: center;
+    position: relative;
+}
+#logo{
+ margin:10px 10px;
+
+}
+#logo img{
+    height: 120px;
+    margin:1px 1px;
+
+}
+
+    
+
+#navigationbar ul{
+    display:flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#navigationbar ul li{
+  font-family: sans-serif;
+    color: white;
+   list-style: none;
+   font-size: 35px;
+}
+#navigationbar ul li a{
+  color: white;
+    display: block;
+   padding: 3px 22px;
+   border-radius: 20px;
+   text-decoration: none;
+
+}
+#navigationbar ul li a:hover{
+    color:  rgb(6, 15, 57);
+    background-color: white;
+      display: block;
+     padding: 3px 22px;
+     border-radius: 20px;
+     text-decoration: none;
+     
+}
+#navigationbar::before{
+    content:"";
+    background-color: rgb(6, 15, 57);
+    position: absolute;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+ 
+    
+}
+
+
+
+/* logo and icons preparation*/
+#home{
+    display:flex;
+    flex-direction: column;
+    height: 633px;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+   
+}
+#home img{
+    content:"";
+    position:absolute;
+   
+    background-repeat: no-repeat;
+    background-position: center;
+background-size: cover;
+    height:100%;
+
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+   
+}
+#home h1{
+    color:rgb(255, 247, 247);
+    text-align:center;
+    
+}
+.h-primary{
+    font-size: 70px;
+    padding:15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 60px;
+}
+.h-primary:hover{
+    color:#db63d1;
+
+}
+.h-primary span{
+    color: rgba(20, 1, 15, 0.918);
+}
+.h-primary span:hover{
+    color: #db63d1;
+}
+
+
+#home p{
+    color:white;
+    font-size: 40px;
+}
+#home p:hover{
+    color: black;
+}
+.btn{
+    padding: 25px 25px;
+     font-weight:bold ;
+    background-color:rgb(16, 4, 49);
+    font-size: 45px,;
+    color: blanchedalmond;
+    margin: 20px;
+    cursor:pointer;
+    border-radius: 15px;
+   
+    
+}
+
+.btn:hover{
+    
+    background-color: white;
+    color:rgb(16, 4, 49);
+    font-size: 40px;
+    border-radius: 15px;
+    border-color: white ;
+    
+}
+
+#client-section h1 {
+    margin: 30px;
+    font-size: 45px;
+}
+#clients.icons {
+    display: flex;
+    height: 40em;
+    
+
+} 
+#clients.icons a:hover{
+ 
+  
+    width: 180px   ;
+    height: 90px ;
+    text-align: center;
+    text-decoration:none ;
+    color:#06bd28;
+    box-shadow: 0 0 20px 10px  rgba(0, 0, 0, 0,0.05);
+}
+#services{
+    margin:34px;
+    display:flex;
+    text-align: center;
+  
+
+}
+#services .box{
+    border:2px solid rgb(14, 3, 42);
+
+}
+#services .box{
+    margin: auto;
+    display: block;
+    padding:34px;
+    margin:3px 6px;
+    border-radius: 28px;
+    background-color: rgb(204, 213, 213);
+}
+#services box p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
